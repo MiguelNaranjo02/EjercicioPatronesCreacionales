@@ -1,5 +1,14 @@
 package InterfazGrafica;
 
+/**
+ * Clase Menu
+ * 
+ * Clase Interfaz de menu, contiene los atributos para crear el menu de personajes.
+ * 
+ * @author Miguel A. Naranjo, Cristian C. Tuso.
+ * @version 1.0 15/12/2021
+ */
+
 import java.awt.Color;
 import java.awt.Font;
 import java.awt.Image;

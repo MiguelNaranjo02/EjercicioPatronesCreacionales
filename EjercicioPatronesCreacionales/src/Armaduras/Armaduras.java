@@ -8,8 +8,12 @@ package Armaduras;
 import java.awt.Component;
 
 /**
- *
- * @author Miguel
+ * Clase Armaduras
+ * 
+ * 
+ * 
+ * @author Miguel A. Naranjo, Cristian C. Tuso.
+ * @version 1.0 15/12/2021
  */
 public abstract class Armaduras {
 

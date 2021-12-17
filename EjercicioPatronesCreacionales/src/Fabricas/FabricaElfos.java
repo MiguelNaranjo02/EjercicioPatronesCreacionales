@@ -15,8 +15,12 @@ import Monturas.MonturaElfos;
 import Monturas.Monturas;
 
 /**
- *
- * @author Miguel
+ * Clase FabricaElfos
+ * 
+ * 
+ * 
+ * @author Miguel A. Naranjo, Cristian C. Tuso.
+ * @version 1.0 15/12/2021
  */
 public class FabricaElfos implements FabricaRazas {
 

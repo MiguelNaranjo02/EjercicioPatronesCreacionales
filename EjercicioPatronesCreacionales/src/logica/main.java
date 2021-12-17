@@ -9,8 +9,12 @@ import InterfazGrafica.Menu;
 import java.awt.EventQueue;
 
 /**
- *
- * @author Miguel
+ * Clase Principal
+ * 
+ * Clase tipo main, instancia las interfaces.
+ * 
+ * @author Miguel A. Naranjo, Cristian C. Tuso.
+ * @version 1.0 15/12/2021
  */
 public class main {
 

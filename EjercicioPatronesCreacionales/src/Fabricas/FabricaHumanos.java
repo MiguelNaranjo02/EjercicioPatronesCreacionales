@@ -18,8 +18,12 @@ import Monturas.MonturaHumanos;
 import Monturas.Monturas;
 
 /**
- *
- * @author Miguel
+ * Clase FabricaHumanos
+ * 
+ * 
+ * 
+ * @author Miguel A. Naranjo, Cristian C. Tuso.
+ * @version 1.0 15/12/2021
  */
 public class FabricaHumanos implements FabricaRazas {
 

@@ -1,4 +1,12 @@
 package InterfazGrafica;
+/**
+ * Clase Ventana
+ * 
+ * Clase Interfaz de ventana, contiene los atributos para crear el la ventana donde se muestran los personajes creados.
+ * 
+ * @author Miguel A. Naranjo, Cristian C. Tuso.
+ * @version 1.0 15/12/2021
+ */
 
 import Armaduras.Armaduras;
 import Armas.Armas;
@@ -172,7 +180,7 @@ public class ventana extends JFrame {
 		contentPane.add(fondoLables4);
 
 		JLabel fondoLables5 = new JLabel("");
-		Image i1 = new ImageIcon("C:\\\\Users\\\\krisd\\\\Desktop\\\\Modelos Prog I\\\\MODELOS_PROG\\\\EjercicioPatronesCreacionales\\\\EjercicioPatronesCreacionales\\\\Imagenes\\\\FondoPersonajesIco.jpg").getImage();
+		Image i1 = new ImageIcon("Imagenes\\FondoPersonajesIco.jpg").getImage();
 		ImageIcon i2 = new ImageIcon(i1.getScaledInstance(160, 457, Image.SCALE_SMOOTH));
 		
 		JLabel lblPers1 = new JLabel("");

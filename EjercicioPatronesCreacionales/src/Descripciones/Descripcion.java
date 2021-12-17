@@ -6,8 +6,12 @@
 package Descripciones;
 
 /**
- *
- * @author Miguel
+ * Clase Descripcion
+ * 
+ * 
+ * 
+ * @author Miguel A. Naranjo, Cristian C. Tuso.
+ * @version 1.0 15/12/2021
  */
 public abstract class Descripcion {
 	String descripcion;

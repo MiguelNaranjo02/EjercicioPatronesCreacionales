@@ -6,8 +6,12 @@
 package Armas;
 
 /**
- *
- * @author Miguel
+ * Clase ArmasHumanos
+ * 
+ * 
+ * 
+ * @author Miguel A. Naranjo, Cristian C. Tuso.
+ * @version 1.0 15/12/2021
  */
 public class ArmasHumanos extends Armas {
 

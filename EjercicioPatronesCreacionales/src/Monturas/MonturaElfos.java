@@ -6,8 +6,12 @@
 package Monturas;
 
 /**
- *
- * @author Miguel
+ * Clase MonturaElfos
+ * 
+ * 
+ * 
+ * @author Miguel A. Naranjo, Cristian C. Tuso.
+ * @version 1.0 15/12/2021
  */
 public class MonturaElfos extends Monturas {
 

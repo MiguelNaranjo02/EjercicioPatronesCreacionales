@@ -6,8 +6,12 @@
 package Armaduras;
 
 /**
- *
- * @author Miguel
+ * Clase ArmadurasHumanos
+ * 
+ * 
+ * 
+ * @author Miguel A. Naranjo, Cristian C. Tuso.
+ * @version 1.0 15/12/2021
  */
 public class ArmadurasHumanos extends Armaduras {
 

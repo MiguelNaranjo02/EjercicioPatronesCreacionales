@@ -15,8 +15,12 @@ import Monturas.MonturaEnanos;
 import Monturas.Monturas;
 
 /**
- *
- * @author Miguel
+ * Clase FabricaEnanos
+ * 
+ * 
+ * 
+ * @author Miguel A. Naranjo, Cristian C. Tuso.
+ * @version 1.0 15/12/2021
  */
 public class FabricaEnanos implements FabricaRazas {
 
