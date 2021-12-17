@@ -34,8 +34,9 @@ public class DescripcionElfos extends Descripcion {
         		+ "y espiritu que los hombres \n"
         		+ "y los enanos y son tambien \n"
         		+ "más hábiles que estos.\n";
+        srcPersonaje = "Imagenes\\Elfo.jpg";
     }
-
+    
     @Override
     public void obtenerInfo() {
         System.out.println("Descripcion de elfo dicha");

@@ -33,6 +33,7 @@ public class DescripcionHumanos extends Descripcion {
         		+ "sobretodo en la zona oriental, \n"
         		+ "no de una casa definida, \n"
         		+ "eran una mezcolanza de las tres.\n";
+        srcPersonaje = "Imagenes\\Humano.jpeg";
     }
     
 

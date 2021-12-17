@@ -26,7 +26,9 @@ import java.awt.event.KeyEvent;
 
 public class Menu extends JFrame {
 
-	private int opcion;
+	private int opcion = 0;
+	private int Qpers = 0;
+	
 	private JPanel contentPane;
 	private JLabel lblAvisoSPer;
 	private JLabel lblAviso1;
@@ -116,17 +118,20 @@ public class Menu extends JFrame {
 				if (tFNumPers.getText().length() == 1) {
 					e.consume();
 				}
+				
 				btnGenerar.setEnabled(true);
 			}
 		});
-
+		
+		
 		btnGenerar = new JButton("Generar");
 		btnGenerar.setFont(new Font("Gill Sans MT", Font.BOLD, 12));
 		btnGenerar.setEnabled(false);
 		btnGenerar.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 
-				ventana vent = new ventana(opcion);
+				Qpers = Integer.parseInt(tFNumPers.getText());
+				ventana vent = new ventana(opcion, Qpers);
 				vent.setVisible(true);
 				dispose();
 			}

@@ -10,11 +10,16 @@ package Descripciones;
  * @author Miguel
  */
 public abstract class Descripcion {
-    String descripcion;
+	String descripcion;
+	String srcPersonaje;
 
-    public String getDescripcion() {
-        return descripcion;
-    }
-    
-    public abstract void obtenerInfo();
+	public String getDescripcion() {
+		return descripcion;
+	}
+
+	public String getSrcPersonaje() {
+		return srcPersonaje;
+	}
+
+	public abstract void obtenerInfo();
 }

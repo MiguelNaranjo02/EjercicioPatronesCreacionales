@@ -24,7 +24,7 @@ public class ventana extends JFrame {
 	private JPanel contentPane;
 	private FabricaRazas fabrica;
 
-	public ventana(int opcion) {
+	public ventana(int opcion, int Qpers) {
 
 		if (opcion == 1) {
 			fabrica = new FabricaElfos();
@@ -39,6 +39,7 @@ public class ventana extends JFrame {
 		contentPane = new JPanel();
 		contentPane.setBorder(new EmptyBorder(5, 5, 5, 5));
 		setContentPane(contentPane);
+		setLocationRelativeTo(null);
 
 		Armaduras armadu = fabrica.CrearArmaduras();
 		Armas arma = fabrica.CrearArmas();
@@ -175,8 +176,122 @@ public class ventana extends JFrame {
 		contentPane.add(fondoLables4);
 
 		JLabel fondoLables5 = new JLabel("");
-		Image i1 = new ImageIcon("Imagenes\\FondoPersonajesIco.jpg").getImage();
+		Image i1 = new ImageIcon("C:\\\\Users\\\\krisd\\\\Desktop\\\\Modelos Prog I\\\\MODELOS_PROG\\\\EjercicioPatronesCreacionales\\\\EjercicioPatronesCreacionales\\\\Imagenes\\\\FondoPersonajesIco.jpg").getImage();
 		ImageIcon i2 = new ImageIcon(i1.getScaledInstance(160, 457, Image.SCALE_SMOOTH));
+		
+		JLabel lblPers1 = new JLabel("");
+		lblPers1.setVisible(false);
+		lblPers1.setBounds(775, 123, 69, 70);
+		contentPane.add(lblPers1);
+		Image iPers = new ImageIcon(descrip.getSrcPersonaje()).getImage();
+		ImageIcon iP = new ImageIcon(iPers.getScaledInstance(69, 70, Image.SCALE_SMOOTH));
+		lblPers1.setIcon(iP);
+		
+		JLabel lblPers2 = new JLabel("");
+		lblPers2.setVisible(false);
+		lblPers2.setBounds(849, 123, 69, 70);
+		contentPane.add(lblPers2);
+		lblPers2.setIcon(iP);
+		
+		JLabel lblPers3 = new JLabel("");
+		lblPers3.setVisible(false);
+		lblPers3.setBounds(775, 204, 69, 70);
+		contentPane.add(lblPers3);
+		lblPers3.setIcon(iP);
+		
+		JLabel lblPers4 = new JLabel("");
+		lblPers4.setVisible(false);
+		lblPers4.setBounds(849, 204, 69, 70);
+		contentPane.add(lblPers4);
+		lblPers4.setIcon(iP);
+		
+		JLabel lblPers5 = new JLabel("");
+		lblPers5.setVisible(false);
+		lblPers5.setBounds(775, 285, 69, 70);
+		contentPane.add(lblPers5);
+		lblPers5.setIcon(iP);
+		
+		JLabel lblPers6 = new JLabel("");
+		lblPers6.setVisible(false);
+		lblPers6.setBounds(849, 285, 69, 70);
+		contentPane.add(lblPers6);
+		lblPers6.setIcon(iP);
+		
+		JLabel lblPers7 = new JLabel("");
+		lblPers7.setVisible(false);
+		lblPers7.setBounds(775, 366, 69, 70);
+		contentPane.add(lblPers7);
+		lblPers7.setIcon(iP);
+		
+		JLabel lblPers8 = new JLabel("");
+		lblPers8.setVisible(false);
+		lblPers8.setBounds(849, 366, 69, 70);
+		contentPane.add(lblPers8);
+		lblPers8.setIcon(iP);
+		
+		switch(Qpers) {
+			case 1: {
+				lblPers1.setVisible(true);
+				break;
+			}
+			case 2: {
+				lblPers1.setVisible(true);
+				lblPers2.setVisible(true);
+				break;
+			}
+			case 3: {
+				lblPers1.setVisible(true);
+				lblPers2.setVisible(true);
+				lblPers3.setVisible(true);
+				break;
+			}
+			case 4: {
+				lblPers1.setVisible(true);
+				lblPers2.setVisible(true);
+				lblPers3.setVisible(true);
+				lblPers4.setVisible(true);
+				break;
+			}
+			case 5: {
+				lblPers1.setVisible(true);
+				lblPers2.setVisible(true);
+				lblPers3.setVisible(true);
+				lblPers4.setVisible(true);
+				lblPers5.setVisible(true);
+				break;
+			}
+			case 6: {
+				lblPers1.setVisible(true);
+				lblPers2.setVisible(true);
+				lblPers3.setVisible(true);
+				lblPers4.setVisible(true);
+				lblPers5.setVisible(true);
+				lblPers6.setVisible(true);
+				break;
+			}
+			case 7: {
+				lblPers1.setVisible(true);
+				lblPers2.setVisible(true);
+				lblPers3.setVisible(true);
+				lblPers4.setVisible(true);
+				lblPers5.setVisible(true);
+				lblPers6.setVisible(true);
+				lblPers7.setVisible(true);
+				break;
+			}
+			case 8: {
+				lblPers1.setVisible(true);
+				lblPers2.setVisible(true);
+				lblPers3.setVisible(true);
+				lblPers4.setVisible(true);
+				lblPers5.setVisible(true);
+				lblPers6.setVisible(true);
+				lblPers7.setVisible(true);
+				lblPers8.setVisible(true);
+				break;
+			}
+		}
+		
 		fondoLables5.setBackground(Color.WHITE);
 		fondoLables5.setBounds(769, 52, 160, 457);
 		contentPane.add(fondoLables5);
@@ -189,11 +304,6 @@ public class ventana extends JFrame {
 		Image img = new ImageIcon("Imagenes\\Fondo.jpg").getImage();
 		ImageIcon img2 = new ImageIcon(img.getScaledInstance(984, 611, Image.SCALE_SMOOTH));
 		lblFondo.setIcon(img2);
-
-		JLabel lblNewLabel = new JLabel("New label");
-		lblNewLabel.setBounds(5, 5, 974, 601);
-		contentPane.add(lblNewLabel);
-		setLocationRelativeTo(null);
+		
 	}
-
 }

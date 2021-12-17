@@ -33,6 +33,7 @@ public class DescripcionEnanos extends Descripcion {
         		+ "larga labor de la busqueda y \n"
         		+ "extracción de los minerales \n"
         		+ "subterraneos";
+        srcPersonaje = "Imagenes\\Enano.jpeg";
     }
 
     @Override
