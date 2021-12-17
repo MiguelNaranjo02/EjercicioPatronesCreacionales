@@ -5,9 +5,8 @@
  */
 package logica;
 
-import java.awt.EventQueue;
-
 import InterfazGrafica.Menu;
+import java.awt.EventQueue;
 
 /**
  *
