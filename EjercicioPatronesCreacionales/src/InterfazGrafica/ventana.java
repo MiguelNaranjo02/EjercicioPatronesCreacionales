@@ -1,23 +1,19 @@
 package InterfazGrafica;
 
-import java.awt.BorderLayout;
+import Armaduras.Armaduras;
+import Armas.Armas;
+import Descripciones.Descripcion;
+import Fabricas.*;
+import Monturas.Monturas;
 import java.awt.Color;
-import java.awt.EventQueue;
 import java.awt.Font;
 import java.awt.Image;
-
 import javax.swing.ImageIcon;
 import javax.swing.JFrame;
 import javax.swing.JLabel;
 import javax.swing.JPanel;
 import javax.swing.JTextArea;
 import javax.swing.border.EmptyBorder;
-
-import Armaduras.Armaduras;
-import Armas.Armas;
-import Descripciones.Descripcion;
-import Fabricas.*;
-import Monturas.Monturas;
 
 public class ventana extends JFrame {
 
