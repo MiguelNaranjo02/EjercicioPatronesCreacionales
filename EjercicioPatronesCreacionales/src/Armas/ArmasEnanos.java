@@ -12,9 +12,17 @@ package Armas;
 public class ArmasEnanos extends Armas {
 
     public ArmasEnanos() {
-        nombreArmas = "";
-        descripcionArmas = "";
-        srcArmas = "";
+        nombreArmas = "Maza";
+        descripcionArmas = "Atraviesan armaduras ligeras \n"
+        		+ "con increíble efectividad, sobre \n"
+        		+ "todo debido a lo afilado \n"
+        		+ "del metal enano templado y, en \n"
+        		+ "menor medida, a su \n"
+        		+ "sencillo diseño de \n"
+        		+ "doble filo. Las mazas \n"
+        		+ "enanas son una prueba de la \n"
+        		+ "maestria herrera de la raza. \n";
+        srcArmas = "Imagenes\\Maza.jpg";
     }
 
     @Override

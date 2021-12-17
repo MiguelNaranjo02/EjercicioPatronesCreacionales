@@ -12,9 +12,19 @@ package Armas;
 public class ArmasHumanos extends Armas {
 
     public ArmasHumanos() {
-        nombreArmas = "";
-        descripcionArmas = "";
-        srcArmas = "";
+        nombreArmas = "Espada";
+        descripcionArmas = "Las armas de los \n"
+        		+ "humanos no son las mas \n"
+        		+ "elaboradas de todas las \n"
+        		+ "razas, consisten en un \n"
+        		+ "un arma blanca de dos \n"
+        		+ "filos, básicamente una \n"
+        		+ "hoja recta cortante y \n"
+        		+ "punzante, sus hojas de \n"
+        		+ "acero templado no son \n"
+        		+ "envidiables por las \n"
+        		+ "demas razas \n";
+        srcArmas = "Imagenes\\Espada.jpg";
     }
 
     @Override

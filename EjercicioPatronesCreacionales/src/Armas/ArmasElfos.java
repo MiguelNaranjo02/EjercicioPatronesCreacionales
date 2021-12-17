@@ -12,9 +12,16 @@ package Armas;
 public class ArmasElfos extends Armas {
 
     public ArmasElfos() {
-        nombreArmas = "";
-        descripcionArmas = "";
-        srcArmas = "";
+        nombreArmas = "Arco y Flechas";
+        descripcionArmas = "Es un arma certera \n"
+        		+ "y liviana, hecha \n"
+        		+ "especialmente para los elfos. \n"
+        		+ "estos lo utilizan \n"
+        		+ "con gran maestría \n"
+        		+ "y causa muchas \n"
+        		+ "bajas entre los \n"
+        		+ "siervos enemigos \n";
+        srcArmas = "Imagenes\\Arco.jpg";
     }
 
     @Override

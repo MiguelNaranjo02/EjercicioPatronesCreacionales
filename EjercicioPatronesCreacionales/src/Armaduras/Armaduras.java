@@ -5,6 +5,8 @@
  */
 package Armaduras;
 
+import java.awt.Component;
+
 /**
  *
  * @author Miguel

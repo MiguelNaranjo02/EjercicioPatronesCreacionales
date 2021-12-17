@@ -12,9 +12,16 @@ package Armaduras;
 public class ArmadurasElfos extends Armaduras {
 
     public ArmadurasElfos() {
-        nombreArmadura = "";
-        descripcionArmadura = "";
-        srcArmadura = "";
+        nombreArmadura = "Armadura Elfica";
+        descripcionArmadura = "Esta armadura esta hecha \n"
+        		+ "de un metal plateado \n"
+        		+ "precioso, muy ligero \n"
+        		+ "pero capaz de proporcionar \n"
+        		+ "la fuerza extrema en \n"
+        		+ "las aleaciones, que se extraia por \n"
+        		+ "los Enanos en las profundas \n"
+        		+ "minas de Khazad-dûm. \n";
+        srcArmadura = "Imagenes\\ArmaduraElfos.jpg";
     }
 
    

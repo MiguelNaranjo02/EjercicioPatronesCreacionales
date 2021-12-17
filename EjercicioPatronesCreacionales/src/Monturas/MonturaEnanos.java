@@ -13,9 +13,18 @@ public class MonturaEnanos extends Monturas {
 
     public MonturaEnanos() {
 
-        nombreMontura = "";
-        descripcionMontura = "";
-        srcMontura = "";
+        nombreMontura = "Centurion";
+        descripcionMontura = "Inspirados en su \n"
+        		+ "iconica armadura, el justamente \n"
+        		+ "temido \"centurión\", cuya \n"
+        		+ "altura puede doblar o \n"
+        		+ "centuplicar la estatura \n"
+        		+ "humana según los testimonios \n"
+        		+ "a los que se otorgue \n"
+        		+ "verosimilitud. son máquinas \n"
+        		+ "militares enanas blindadas \n"
+        		+ "y fuertemente armados \n";
+        srcMontura = "Imagenes\\Centurion.jpg";
     }
 
     @Override
