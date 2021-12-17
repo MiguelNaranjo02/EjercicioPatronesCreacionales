@@ -20,6 +20,10 @@ public class main {
 
 	public static void main(String[] args) {
 		EventQueue.invokeLater(new Runnable() {
+			
+			/*
+			 * Se instancia el frame menu para inicar la interfaz del programa.
+			 * */
 			public void run() {
 				try {
 					Menu frame = new Menu();

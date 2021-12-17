@@ -17,10 +17,16 @@ import java.awt.Component;
  */
 public abstract class Armaduras {
 
+	/*
+	 * Variables de la clase abstracta
+	 * */
     String nombreArmadura;
     String descripcionArmadura;
     String srcArmadura;
-
+    
+    /*
+	 * getters y setters
+	 * */
     public String getNombreArmadura() {
         return nombreArmadura;
     }

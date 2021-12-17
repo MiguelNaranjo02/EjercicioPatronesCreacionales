@@ -14,7 +14,10 @@ package Armaduras;
  * @version 1.0 15/12/2021
  */
 public class ArmadurasElfos extends Armaduras {
-
+	
+	/*
+	 * Variables de la clase con sus respectivos valores de acuerdo a la instancia del personaje
+	 * */
     public ArmadurasElfos() {
         nombreArmadura = "Armadura Elfica";
         descripcionArmadura = "Esta armadura esta hecha \n"

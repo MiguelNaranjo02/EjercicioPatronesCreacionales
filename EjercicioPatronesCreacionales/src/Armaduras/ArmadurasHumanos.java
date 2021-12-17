@@ -16,6 +16,10 @@ package Armaduras;
 public class ArmadurasHumanos extends Armaduras {
 
     public ArmadurasHumanos() {
+    	
+    	/*
+    	 * Variables de la clase con sus respectivos valores de acuerdo a la instancia del personaje
+    	 * */
         nombreArmadura = "Cota de Malla";
         descripcionArmadura = "La cota de malla es uno \n"
         		+ "de los tipos de protección \n"

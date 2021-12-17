@@ -16,6 +16,10 @@ package Armaduras;
 public class ArmadurasEnanos extends Armaduras {
 
     public ArmadurasEnanos() {
+    	
+    	/*
+    	 * Variables de la clase con sus respectivos valores de acuerdo a la instancia del personaje
+    	 * */
         nombreArmadura = "Armadura \n"
         		+ "Centurion";
         descripcionArmadura = "Cualquiera que haya \n"

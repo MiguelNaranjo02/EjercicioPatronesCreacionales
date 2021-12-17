@@ -15,10 +15,16 @@ package Armas;
  */
 public abstract class Armas {
 
+	/*
+	 * Variables de la clase abstracta
+	 * */
     String nombreArmas;
     String descripcionArmas;
     String srcArmas;
 
+    /*
+	 * getters y setters
+	 * */
     public String getNombreArmas() {
         return nombreArmas;
     }
